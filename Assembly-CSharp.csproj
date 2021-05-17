@@ -56,64 +56,65 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Camera/CameraScript.cs" />
     <Compile Include="Assets/Scripts/Affect/Appraisal.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/Collection.cs" />
-    <Compile Include="Assets/Scripts/LineHandler.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/Inventory.cs" />
+    <Compile Include="Assets/GameScript/LineSight.cs" />
     <Compile Include="Assets/Scripts/Camera/MoveTarget.cs" />
-    <Compile Include="Assets/Scripts/Screenshot.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
     <Compile Include="Assets/Scripts/Behavior/ZoneComponent.cs" />
-    <Compile Include="Assets/Scripts/Behavior/AgentComponent.cs" />
-    <Compile Include="Assets/Scripts/Behavior/LeaderComponent.cs" />
-    <Compile Include="Assets/Scripts/MeshCreator.cs" />
-    <Compile Include="Assets/Scripts/Analysis/DataCollector.cs" />
-    <Compile Include="Assets/Scripts/Camera/CameraControlScript.cs" />
-    <Compile Include="Assets/Scripts/Behavior/ExplosionBehavior.cs" />
+    <Compile Include="Assets/GameScript/Pickup.cs" />
     <Compile Include="Assets/Scripts/Behavior/FightBehavior.cs" />
-    <Compile Include="Assets/Scripts/Analysis/EmotionDataAnalyzer.cs" />
     <Compile Include="Assets/Scripts/Behavior/ProtesterBehavior.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets/Scripts/Camera/FlyingCamera.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
-    <Compile Include="Assets/Scripts/SeatComponent.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
     <Compile Include="Assets/Scripts/GroupBuilder.cs" />
-    <Compile Include="Assets/Scripts/Camera/CameraAgent.cs" />
-    <Compile Include="Assets/Scripts/PostureAnimator.cs" />
-    <Compile Include="Assets/Scripts/ObjComponent.cs" />
-    <Compile Include="Assets/Scripts/AnimGUI.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/CameraControl.cs" />
+    <Compile Include="Assets/Scripts/CameraControlOneMob.cs" />
     <Compile Include="Assets/Scripts/UpdateProtestCenter.cs" />
     <Compile Include="Assets/Scripts/AnimationSelector.cs" />
     <Compile Include="Assets/Scripts/Behavior/PoliceBehavior.cs" />
     <Compile Include="Assets/Aytek/Scripts/Train.cs" />
-    <Compile Include="Assets/Scripts/CrowdManager.cs" />
+    <Compile Include="Assets/GameScript/Login.cs" />
     <Compile Include="Assets/Scripts/Behavior/ShopperBehavior.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/Timer.cs" />
-    <Compile Include="Assets/Scripts/Behavior/AudienceBehavior.cs" />
     <Compile Include="Assets/Scripts/DoorComponent.cs" />
     <Compile Include="Assets/Scripts/PersonalityMapper.cs" />
     <Compile Include="Assets/Scripts/MathDefs.cs" />
-    <Compile Include="Assets/Scripts/Behavior/PassengerBehavior.cs" />
     <Compile Include="Assets/Scripts/Affect/Contagion.cs" />
     <Compile Include="Assets/Scripts/Affect/AffectComponent.cs" />
+    <Compile Include="Assets/GameScript/Health.cs" />
+    <Compile Include="Assets/GameScript/CameraControl.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/Scripts/ArrowBehavior.cs" />
+    <Compile Include="Assets/Scripts/Camera/CameraScript.cs" />
+    <Compile Include="Assets/Scripts/LineHandler.cs" />
+    <Compile Include="Assets/GameScript/Inventory.cs" />
+    <Compile Include="Assets/Scripts/Screenshot.cs" />
+    <Compile Include="Assets/Scripts/Behavior/AgentComponent.cs" />
+    <Compile Include="Assets/Scripts/MeshCreator.cs" />
+    <Compile Include="Assets/Scripts/Behavior/LeaderComponent.cs" />
+    <Compile Include="Assets/Scripts/Analysis/DataCollector.cs" />
+    <Compile Include="Assets/Scripts/Camera/CameraControlScript.cs" />
+    <Compile Include="Assets/Scripts/Behavior/ExplosionBehavior.cs" />
+    <Compile Include="Assets/GameScript/Timer.cs" />
+    <Compile Include="Assets/Scripts/Analysis/EmotionDataAnalyzer.cs" />
+    <Compile Include="Assets/Scripts/Camera/FlyingCamera.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
+    <Compile Include="Assets/Scripts/SeatComponent.cs" />
+    <Compile Include="Assets/Scripts/Camera/CameraAgent.cs" />
+    <Compile Include="Assets/Scripts/PostureAnimator.cs" />
+    <Compile Include="Assets/GameScript/UIManager.cs" />
+    <Compile Include="Assets/Scripts/ObjComponent.cs" />
+    <Compile Include="Assets/Scripts/AnimGUI.cs" />
+    <Compile Include="Assets/GameScript/Fight.cs" />
+    <Compile Include="Assets/GameScript/Collection.cs" />
+    <Compile Include="Assets/Scripts/CrowdManager.cs" />
+    <Compile Include="Assets/GameScript/Register.cs" />
+    <Compile Include="Assets/Scripts/Behavior/AudienceBehavior.cs" />
+    <Compile Include="Assets/Scripts/Behavior/PassengerBehavior.cs" />
     <Compile Include="Assets/Scripts/TriggerExplosionBehavior.cs" />
     <Compile Include="Assets/Scripts/GUIHandler.cs" />
     <Compile Include="Assets/Scripts/ObjectLabel.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/Pickup.cs" />
     <Compile Include="Assets/Scripts/Camera/CameraControl3dsMaxStyle.cs" />
-    <Compile Include="Assets/Scripts/PlayGame/HPManager.cs" />
+    <Compile Include="Assets/GameScript/HPManager.cs" />
     <Compile Include="Assets/Scripts/ShelfComponent.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
-    <Compile Include="Assets/Scripts/ArrowBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets/SampleScenes/Shaders/Skybox-Procedural.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -690,8 +691,14 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -716,6 +723,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
